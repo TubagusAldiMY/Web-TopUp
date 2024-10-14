@@ -1,5 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container-navbar {
   background-color: red;
+}
+/* CSS FOR SLIDESHOW */
+.container-slide {
+  display: flex;
+}
+.container-slide img {
+  width: 100%;
 }
 
 /* CSS FOR CARD */
