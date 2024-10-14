@@ -1,6 +1,6 @@
 function Card() {
   return (
-    <section>
+    <section className="container-card">
       <h2>Game Populer</h2>
       <div className="grid-container">
         <div className="card">
@@ -19,19 +19,19 @@ function Card() {
         </div>
 
         <div className="card">
+          <img src="Hok.jpeg" alt="" />
+          <h3>honor Of king</h3>
+        </div>
+
+        {/* <div className="card">
           <img src="aov.jpeg" alt="" />
           <h3>Arena of valor</h3>
         </div>
 
         <div className="card">
-          <img src="Hok.jpeg" alt="" />
-          <h3>honor Of king</h3>
-        </div>
-
-        <div className="card">
           <img src="honkai.jpeg" alt="" />
           <h3>Honkai Impack</h3>
-        </div>
+        </div> */}
       </div>
     </section>
   );
