@@ -1,7 +1,11 @@
 import "./App.css";
 
 function App() {
-  return <main></main>;
+  return (
+    <main>
+      <h1>Web Topup</h1>
+    </main>
+  );
 }
 
 export default App;
