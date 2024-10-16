@@ -5,6 +5,7 @@ export default function ImgShows() {
   const intro_img = [
     ["SlideShow/ff.webp", "Free Fire"],
     ["SlideShow/ml.jpg", "Mobile Legends"],
+    ["SlideShow/pubg.jpg", "PUBG"],
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .container-navbar {
@@ -13,11 +14,18 @@
 }
 .container-slide img {
   width: 100%;
+  height: 38rem;
+  object-fit: cover;
+  object-position: top;
 }
 
 /* CSS FOR CARD */
 .container-card {
-  padding: 6rem;
+  padding: 8rem 6rem 6rem 6rem;
+}
+.container-card h2 {
+  margin-left: 2rem;
+  margin-bottom: 0.7rem;
 }
 
 .grid-container {
@@ -51,4 +59,19 @@
 
 .card:hover {
   box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.2); /* 5px = 0.3125rem, 15px = 0.9375rem */
+}
+
+.promotion-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.promotion-card img {
+  width: 75rem;
+  height: 30rem;
+  object-fit: cover;
+  color: red;
+  border-radius: 2rem;
 }
