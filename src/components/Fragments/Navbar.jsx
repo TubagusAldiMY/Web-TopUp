@@ -4,7 +4,7 @@ import Input from '../Elements/Input'
 import Search from '../Elements/Search'
 const Navbar = () => {
     return (
-        <div className=' h-[95px] flex justify-between align-center shadow-lg sticky top-0 bg-white'>
+        <div className=' h-[95px] flex justify-between align-center shadow-lg  bg-white'>
             <img src="/logo.jpg" alt="logo" />
             <ul className='flex justify-between gap-[5rem] items-center font-semibold text-[1.1rem]'>
                 <li>🏠 Beranda</li>
