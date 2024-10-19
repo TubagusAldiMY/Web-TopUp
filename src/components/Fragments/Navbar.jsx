@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Button from "../Elements/Button";
 // import Input from "../Elements/Input";
 import Search from "../Elements/Search";
@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="h-[95px] flex justify-between items-center shadow-lg bg-white px-4 md:px-8">
+    <div className="h-[5rem] flex justify-between items-center shadow-lg bg-white px-4 md:px-8">
       <img src="/logo.jpg" alt="logo" className="w-[80px]" />
       {/* Menu for larger screens */}
       <ul className="hidden md:flex justify-between gap-[3rem] items-center font-semibold text-[1rem]">
