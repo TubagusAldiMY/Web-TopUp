@@ -2,16 +2,12 @@ import React from "react";
 import Label from "../Elements/Label";
 import Button from "../Elements/Button";
 const Cards = (props) => {
-  const { developer, title, img, alt } = props;
+  const { title, img, alt } = props;
   return (
     <div className="flex justify-center gap-2">
       <div className="h-80 w-60 p-8 shadow-2xl rounded-xl transform transition-all hover:-translate-y-2 mt-10">
         <img className="h-60 object-cover rounded-xl" src={img} alt={alt} />
         <div className="p-2">
-          <Label
-            children={developer}
-            variant="mt-0 flex justify-center font-semibold text-[14px] text-slate-500"
-          />
           <Label
             children={title}
             variant="flex justify-center font-bold text-[17px] text-red-500"
