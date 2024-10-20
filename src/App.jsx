@@ -26,9 +26,9 @@ function App() {
         <Cards />
         <Cards />
       </div>
-      <div>
+      {/* <div>
         <Footer />
-      </div>
+      </div> */}
     </Fragment>
   );
 }
