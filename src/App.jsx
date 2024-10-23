@@ -13,6 +13,7 @@ function App() {
       <Navbar />
 
       <Hero />
+
       <div className="flex flex-wrap justify-center gap-2 mt-24 sm:flex sm:flex-wrap sm:gap-6 sm:justify-center ">
         {
           gameList.map((list, index) => {
