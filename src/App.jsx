@@ -26,6 +26,7 @@ function App() {
       <div className="mt-8">
         <Footer />
       </div>
+
     </>
   );
 }
