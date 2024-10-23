@@ -5,7 +5,7 @@ const gameList = [
   },
   {
     logo: "FF",
-    title: "free Fire",
+    title: "Free Fire",
   },
   {
     logo: "Gensin",
@@ -15,10 +15,10 @@ const gameList = [
     logo: "HOK",
     title: "Honor Of King",
   },
-  {
-    logo: "ML",
-    title: "Mobile Legend",
-  },
+  // {
+  //   logo: "ML",
+  //   title: "Mobile Legend",
+  // },
   {
     logo: "PUBG",
     title: "PUBG",
