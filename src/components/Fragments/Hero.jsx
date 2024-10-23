@@ -36,7 +36,7 @@ const Hero = () => {
     <div className="w-full h-[13rem] group p-3 md:h-[26rem] md:p-6 lg:h-[30rem] lg:p-8 xl:h-[40rem] xl:p-10 2xl:h-[70rem] 2xl:p-18 relative group">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].img})` }}
-        className="object-cover h-full w-full bg-center bg-cover duration-500 object-contain rounded-2xl "
+        className="object-cover h-full w-full bg-center bg-cover duration-500 rounded-2xl "
       ></div>
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 lg:left-10 xl:left-16 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
         <MdKeyboardArrowLeft onClick={slideLeft} size={30} />
@@ -45,7 +45,7 @@ const Hero = () => {
         <MdKeyboardArrowRight onClick={slideRight} size={30} />
       </div>
       <div className="flex top-4 justify-center py-2">
-        {slides.map((slideIndex) => (
+        {slides.map((slide, slideIndex) => (
           <div
             key={slideIndex}
             className="text-2xl cursor-pointer"
