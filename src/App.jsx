@@ -11,13 +11,15 @@ function App() {
       <Navbar />
       <Hero />
       <div className="md:grid md:grid-cols-3 md:grid-rows-2 md:pb-24">
-        {
-          gameList.map((list,index)=>{
-            return(
-              <Cards title={list.title} key={index} img={`../public/Logo_Game/${list.logo}.webp`} />
-            )
-          })
-        }
+        {gameList.map((list, index) => {
+          return (
+            <Cards
+              title={list.title}
+              key={index}
+              img={`/Logo_Game/${list.logo}.webp`}
+            />
+          );
+        })}
       </div>
       <Footer />
     </>
