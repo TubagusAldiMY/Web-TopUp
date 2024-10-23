@@ -5,16 +5,17 @@ import Cards from "./components/Fragments/Cards";
 import Hero from "./components/Fragments/Hero";
 import gameList from "./utils/cardsList";
 
-
 function App() {
   return (
     <>
-
       <Navbar />
-
       <Hero />
-
-      <div className="flex flex-wrap justify-center gap-2 mt-24 sm:flex sm:flex-wrap sm:gap-6 sm:justify-center ">
+      <div className="
+      mt-8 flex flex-wrap justify-center 
+      sm:mt-14 sm:flex sm:flex-wrap sm:justify-center 
+      md:mt-14 md:flex md:flex-wrap md:justify-center
+      lg:mt-14 lg:flex lg:flex-wrap lg:justify-center
+      ">
         {
           gameList.map((list, index) => {
             return (
@@ -22,11 +23,9 @@ function App() {
             )
           })
         }
-      </div >
-      <div className="mt-8">
-        <Footer />
       </div>
 
+      <Footer />
     </>
   );
 }
