@@ -1,4 +1,7 @@
 import React from "react";
+import { FaFacebookF, FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
     return (
         <footer className=" bg-black text-white py-8">
@@ -32,20 +35,20 @@ const Footer = () => {
                         <h2 className="font-bold text-lg">Social</h2>
                         <ul className="space-y-2">
                             <li className="flex items-center space-x-2">
-                                <img src="instagram-icon.png" alt="Instagram" className="w-5 h-5" />
-                                <a href="#" className="text-sm hover:underline">Instagram</a>
+                                <FaInstagram className="w-5 h-5" alt="Instagram" />
+                                <Link to="https://instagram.com" className="text-sm hover:underline">Instagram</Link>
                             </li>
                             <li className="flex items-center space-x-2">
-                                <img src="facebook-icon.png" alt="Facebook" className="w-5 h-5" />
-                                <a href="#" className="text-sm hover:underline">Facebook</a>
+                                <FaFacebookF className="w-5 h-5" alt="Facebook" />
+                                <Link to="https://facebook.com" className="text-sm hover:underline">Facebook</Link>
                             </li>
                             <li className="flex items-center space-x-2">
-                                <img src="tiktok-icon.png" alt="TikTok" className="w-5 h-5" />
-                                <a href="#" className="text-sm hover:underline">TikTok</a>
+                                <FaTiktok className="w-5 h-5" alt="TikTok" />
+                                <Link to="https://tiktok.com" className="text-sm hover:underline">TikTok</Link>
                             </li>
                             <li className="flex items-center space-x-2">
-                                <img src="youtube-icon.png" alt="YouTube" className="w-5 h-5" />
-                                <a href="#" className="text-sm hover:underline">Youtube</a>
+                                <FaYoutube className="w-5 h-5" alt="YouTube" />
+                                <Link to="https://youtube.com" className="text-sm hover:underline">Youtube</Link>
                             </li>
                         </ul>
                     </div>
