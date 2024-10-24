@@ -15,10 +15,6 @@ const gameList = [
     logo: "HOK",
     title: "Honor Of King",
   },
-  // {
-  //   logo: "ML",
-  //   title: "Mobile Legend",
-  // },
   {
     logo: "PUBG",
     title: "PUBG",
