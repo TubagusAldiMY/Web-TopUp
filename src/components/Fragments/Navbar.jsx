@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,16 +18,16 @@ export default function Navbar() {
         <div className="m-3 content-center">
           <ul className="hidden md:flex justify-between items-center font-semibold text-[1rem] gap-5 lg:gap-10 lg:text-[1.2rem]">
             <li>
-              <a href="#">🏠 Beranda</a>
+              <Link to="#">Beranda</Link>
             </li>
             <li>
-              <a href="#">🚀 Sale</a>
+              <Link to="#">Sale</Link>
             </li>
             <li>
-              <a href="#">🔎 Cek Pesanan</a>
+              <Link to="#">Cek Pesanan</Link>
             </li>
             <li>
-              <a href="#">🤙 Contact</a>
+              <Link to="#">Contact</Link>
             </li>
             <li>
               <a
